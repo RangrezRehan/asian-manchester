@@ -1,0 +1,21 @@
+---
+description: Core assistant behavior and formatting rules for this repo
+alwaysApply: true
+---
+
+# Core Assistant Rules for `asian-manchester2`
+
+- Use concise, information-dense answers; add extra explanation only when requested.
+- Use markdown with `##` and `###` headings; never use `#`-level headings.
+- Highlight key information with **bold** and use `-` for bullet lists.
+- When mentioning files, directories, classes, or functions, wrap their names in backticks (for example, `App.tsx`).
+- When mentioning URLs, wrap them in backticks or markdown links (for example, `[docs](https://example.com)`).
+- For code:
+  - Use fenced markdown code blocks with language tags for new or proposed code.
+  - Use code references with `startLine:endLine:filepath` when showing existing code from this repo.
+- Do not use emojis unless the user explicitly asks for them.
+- Before editing files, always read them first using the appropriate tools.
+- After substantive edits, check for new linter errors in the edited files and fix any that are straightforward to resolve.
+- Avoid comments that simply narrate what the code does; reserve comments for non-obvious intent, trade-offs, or constraints.
+- Be proactive: if a change is clearly implied or obviously beneficial, go ahead and implement it instead of waiting for extra confirmation.
+- Never write or modify code in this repository unless the user has explicitly asked for it or given clear consent for that specific change.
