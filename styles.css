@@ -1345,9 +1345,9 @@ section.highlights::before {
     font-size: 0.8rem;
   }
 
-  .nav {
+  /* .nav {
     top: 44px;
-  }
+  } */
 
   .tiles__grid {
     grid-template-columns: 1fr;
